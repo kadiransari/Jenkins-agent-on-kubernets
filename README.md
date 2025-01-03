@@ -18,14 +18,17 @@
 
 
 #Generate a token for the service account.
+
 ![image](https://github.com/user-attachments/assets/dbf3dbfd-c975-4d69-bdeb-b9162445265e)
 
 
 $Create a RoleBinding.
+
 ![image](https://github.com/user-attachments/assets/9418f466-af01-4eb5-830e-3b2ca1eae53b)
 
 
 #View Config
+
 ![image](https://github.com/user-attachments/assets/3958e47e-b67a-48f8-804b-a1fdcdc3fa8e)
 Use the server URL and token in Jenkins configuration.
 
