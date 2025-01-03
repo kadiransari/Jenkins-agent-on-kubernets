@@ -38,6 +38,8 @@ Use the server URL and token in Jenkins configuration.
 
 #Configuring Kubernetes Cloud in Jenkins.
 
+##Install the Kubernetes Plugin in Jenkins.
+
 #Go to Manage Jenkins and seletct the Nodes
 ![image](https://github.com/user-attachments/assets/b3acf66d-4ba4-4cfa-b1ec-72b0d763c7ee)
 
@@ -55,8 +57,6 @@ Use the server URL and token in Jenkins configuration.
 
 
 
-
-#Install the Kubernetes Plugin in Jenkins.
 
 #Create a Pipeline in Jenkins.
 
