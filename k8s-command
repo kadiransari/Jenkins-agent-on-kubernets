@@ -1,0 +1,15 @@
+#Create a Namespace for Jenkins.
+kubectl create namespace jenkins
+
+#Set up a service account for Jenkins within the jenkins namespace.
+kubectl create sa jenkins -n jenkins
+
+#Create a token for the Jenkins service account with a specified duration. for example 1 year
+kubectl create token jenkins -n jenkins --duration=8760h
+
+#Assign the admin cluster role to the Jenkins service account to ensure it has necessary permissions within the namespace.
+kubectl create rolebinding jenkins-admin-binding --clusterrole=admin --serviceaccount=jenkins:jenkins --namespace=jenkins
+
+#To verify your current Kubernetes context and configurations.
+kubectl config view
+
