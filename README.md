@@ -36,6 +36,24 @@ $Create a RoleBinding.
 
 Use the server URL and token in Jenkins configuration.
 
+#Configuring Kubernetes Cloud in Jenkins.
+
+#Go to Manage Jenkins and seletct the Nodes
+![image](https://github.com/user-attachments/assets/b3acf66d-4ba4-4cfa-b1ec-72b0d763c7ee)
+
+#Select Cloud and click on the Kubernets and give the name.
+![image](https://github.com/user-attachments/assets/6d94b73e-3356-43ab-9857-f3c82fc8ef91)
+
+#Add a New Cloud
+
+![image](https://github.com/user-attachments/assets/b29b0460-ce0c-41b0-9450-522f7eb6e8a7)
+
+
+# Configure Kubernetes Cloud 
+![image](https://github.com/user-attachments/assets/a1170f61-e623-475b-9fb4-048f5279cfbe)
+
+
+
 
 
 #Install the Kubernetes Plugin in Jenkins.
