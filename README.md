@@ -39,6 +39,7 @@ Use the server URL and token in Jenkins configuration.
 
 
 #Install the Kubernetes Plugin in Jenkins.
+
 #Create a Pipeline in Jenkins.
 
 #Verify the Pod in Jenkins Namespace
